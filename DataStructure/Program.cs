@@ -12,9 +12,9 @@ namespace DataStructure
         {
             Console.WriteLine(Factorial.Recurfactorial(8));
 
-            StringReverse.Reverser("I do something");
+            Console.WriteLine(StringReverse.Reverser("I do something"));
 
-            Console.WriteLine(CalcuOfPower.CalcuPower(2,3));
+            Console.WriteLine(CalcuOfPower.CalcuPower(2, 3));
 
             var arr = new int[] { 2, 3, 4 };
             Console.WriteLine(CalcuOfSquare.CalcuSquare(arr));

@@ -8,14 +8,7 @@ namespace DataStructure
 {
     internal class CalcuOfPower
     {
-        public static double CalcuPower(int num, int power)
-        {
-            if (power == 0)
-                return 1;
-            else if (power == 1)
-                return num;
-            else
-                return num * CalcuPower(num, power - 1);
-        }
+        public static double CalcuPower(int num, int power)=> power==0 ? 1 : num* CalcuPower(num, power - 1);
+     
     }
 }

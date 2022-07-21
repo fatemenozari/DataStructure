@@ -10,18 +10,19 @@ namespace DataStructure
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Factorial.Recurfactorial(8));
+            //    Console.WriteLine(Factorial.Recurfactorial(8));
 
-            Console.WriteLine(StringReverse.Reverser("I do something"));
+            //    Console.WriteLine(StringReverse.Reverser("I do something"));
 
-            Console.WriteLine(CalcuOfPower.CalcuPower(2, 3));
+            //    Console.WriteLine(CalcuOfPower.CalcuPower(2, 3));
 
-            var arr = new int[] { 2, 3, 4 };
-            Console.WriteLine(CalcuOfSquare.CalcuSquare(arr));
+            //    var arr = new int[] { 2, 3, 4 };
+            //    Console.WriteLine(CalcuOfSquare.CalcuSquare(arr));
+            //    Console.WriteLine(CalcuOfSquare.CalcuSquare2(arr));
 
-            Console.WriteLine(CharactersFrequency.Calc("I do something"));
+            Console.WriteLine(CharactersFrequency.Calc2("I do something"));
 
-            CreateFile.Creator(@"E:\file.text");
+            //CreateFile.Creator(@"E:\file.text");
 
 
 

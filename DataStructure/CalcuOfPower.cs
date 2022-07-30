@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataStructure
 {
-    internal class CalcuOfPower
+    public class CalcuOfPower
     {
         public static double CalcuPower(int num, int power)=> power==0 ? 1 : num* CalcuPower(num, power - 1);
      

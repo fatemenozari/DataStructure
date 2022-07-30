@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataStructure
 {
-    internal class Factorial
+    public static class Factorial
     {
          public static int Recurfactorial(int num)
         {
@@ -17,7 +17,7 @@ namespace DataStructure
             else if (num == 1)
                 throw new ArgumentOutOfRangeException("The factorial of 1 is 1");
             else
-                return num * Recurfactorial(num - 1);
+                return (num * Recurfactorial(num - 1));
         }
     }
 }

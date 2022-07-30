@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataStructure
 {
-    public class CreateFile
+    public static class CreateFile
     {
         public static void Creator(string filePath)
         {
